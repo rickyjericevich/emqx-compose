@@ -1,0 +1,22 @@
+services:
+
+  emqx_broker:
+    image: emqx/emqx
+    container_name: emqx_broker
+    ports:
+      - "1883:1883" # default mqtt port
+      - "8883:8883" # default mqtt port for ssl
+      - "8083:8083" # default mqtt port for websockets
+      - "8084:8084" # default mqtt port for websockets ssl
+      - "18083:18083" # default mqtt port for dashboard
+
+#    volumes:
+#      - ./config:/opt/emqx/etc:rw
+#      - ./data:/opt/emqx/data:rw
+#      - ./log:/opt/emqx/log:rw
+
+# volumes for mapping data, config and log
+# volumes:
+#   config:
+#   data:
+#   log:
