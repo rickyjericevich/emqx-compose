@@ -9,9 +9,9 @@ See the following:
 - [Example EMQX configs](https://github.com/hivemq/hivemq-community-edition/tree/master/src/distribution/conf)
 - [EMQX's Docker guide](https://www.emqx.io/docs/en/v5.2/deploy/install-docker.html#use-docker-compose-to-build-an-emqx-cluster)
 
-# Usage on a fresh ubuntu instance
+# Usage
 ## 1. Make sure docker is installed
-Follow this repo set up Docker: [docker-setup-on-linux](https://github.com/rickyjericevich/docker-setup-on-linux)
+Follow this repo to set up Docker: [docker-setup-on-linux](https://github.com/rickyjericevich/docker-setup-on-linux)
 
 ## 2. Run the compose file in detached mode
 ```

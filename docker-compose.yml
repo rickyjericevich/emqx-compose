@@ -1,7 +1,7 @@
 services:
 
   emqx_broker:
-    image: emqx/emqx
+    image: emqx/emqx:latest
     container_name: emqx_broker
     ports:
       - "1883:1883" # default mqtt port
